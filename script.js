@@ -9,9 +9,6 @@ const sentences = [
     "Deep in the heart of the rainforest, a hidden waterfall cascaded down moss-covered rocks, its crystal-clear waters collecting in a serene pool below, untouched by human hands and known only to the jungle's wild inhabitants.",
     "The bustling marketplace was a riot of colors, sounds, and smells, with vendors hawking their wares and shoppers haggling over prices, creating a vibrant tapestry of human interaction and commerce.",
     "As the first snowflakes of winter began to fall, the world seemed to hold its breath, watching in wonder as the landscape was slowly transformed into a glistening white wonderland."
-  
-
-
 ];
 
 const timerElement = document.getElementById('timer');
