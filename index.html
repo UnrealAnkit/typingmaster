@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TYPE MASTER</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TYPE MASTER</h1>
+        <div id="timer" class="timer">30</div>
+        <div id="sentence-container" class="sentence-container"></div>
+        <input type="text" id="input" class="input" placeholder="Type here..." disabled>
+        <button id="start-btn" class="start-btn">Start</button>
+        <div id="live-stats" class="live-stats">
+            <div class="stat-box">WPM: <span id="live-wpm">0</span></div>
+            <div class="stat-box">Accuracy: <span id="live-accuracy">100%</span></div>
+        </div>
+        <div id="charts" class="charts">
+            <div class="chart-container">
+                <canvas id="wpm-chart"></canvas>
+            </div>
+            <div class="chart-container">
+                <canvas id="accuracy-chart"></canvas>
+            </div>
+        </div>
+        <div id="stats" class="stats"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
